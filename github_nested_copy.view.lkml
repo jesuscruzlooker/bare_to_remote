@@ -1,7 +1,7 @@
 view: github_nested_copy {
   sql_table_name: sf_thesis.github_nested_copy ;;
 
-  dimension: actor {
+  dimension: actor_test {
     type: string
     sql: ${TABLE}.actor ;;
   }
